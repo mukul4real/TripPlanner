@@ -1,0 +1,9 @@
+p{
+    font-family: Roboto,Arial;
+    /*here the second font is called backup font and is used when the first font fails to work*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+}

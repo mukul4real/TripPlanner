@@ -1,0 +1,46 @@
+.thumbnail{
+    width: 100%;
+    
+    /*object-fit: contain; = contain is used to preserve the shape of the image if we use height*/
+   /* object-position: right; = this is used with the container so that we can adjust the focus position in 
+    contained image*/
+
+    
+}
+
+/*There are 3 types of elements:block element,inline block element & inline element.block element consumes the entire 
+line of space.inline block element consumes the space it just needs.inline element is within the text (eg:<strong>)*/
+.video_author,.video_stats{
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+.video_author{
+    margin-bottom: 4px;
+}
+.video_title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    /*here font weight corresponds to the fonts that we have selected in google fonts.A number value is used because it is
+    more specific*/
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.profile_picture{
+    width: 40px;
+    border-radius: 50px;
+}
+.thumbnail-row{
+    margin-bottom: 12px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 35px;
+}

@@ -1,0 +1,82 @@
+body
+{
+background-color:white;
+}
+#hero
+{
+    text-align: center;
+    background-image: url("images/periyar-wildlife-sanctuary.webp");
+    background-size: 1500px 600px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-color:white;
+    height:400px;
+    width: 100%;
+    object-fit: cover;
+    justify-items: center;
+
+}
+.hero-h1
+{
+    margin: auto;
+    padding: 40px 30px 35px 25px;
+    background-color: rgba(8, 241, 241, 0.664);
+    border-radius: 10%;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.hero-h2
+{
+    color: white;
+}
+
+
+.details
+{
+    padding: 50px;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.dcol
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.guide
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    background-color: aqua;
+    margin: 150px 150px;
+    border-radius: 10%;
+    border-left: 10px solid black;
+}
+
+.guide-img
+{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.guide-inf0
+{
+    display: flex;
+    flex-direction: column;
+}
